@@ -16,7 +16,6 @@
 		1C9578F5238E522A006A7437 /* UnsplashModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9578F4238E522A006A7437 /* UnsplashModels.swift */; };
 		1C9578F7238E5715006A7437 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9578F6238E5715006A7437 /* Endpoints.swift */; };
 		1C9578F9238E660A006A7437 /* GridCVCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9578F8238E660A006A7437 /* GridCVCellViewModel.swift */; };
-		1C9578FE238ED0BA006A7437 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9578FD238ED0BA006A7437 /* Extensions.swift */; };
 		1CCDB0B7238CF118009C9C32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCDB0B6238CF118009C9C32 /* AppDelegate.swift */; };
 		1CCDB0BB238CF118009C9C32 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCDB0BA238CF118009C9C32 /* GridViewController.swift */; };
 		1CCDB0C0238CF11B009C9C32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CCDB0BF238CF11B009C9C32 /* Assets.xcassets */; };
@@ -36,7 +35,6 @@
 		1C9578F4238E522A006A7437 /* UnsplashModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashModels.swift; sourceTree = "<group>"; };
 		1C9578F6238E5715006A7437 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
 		1C9578F8238E660A006A7437 /* GridCVCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCVCellViewModel.swift; sourceTree = "<group>"; };
-		1C9578FD238ED0BA006A7437 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		1CCDB0B3238CF118009C9C32 /* GridPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CCDB0B6238CF118009C9C32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CCDB0BA238CF118009C9C32 /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
@@ -90,7 +88,6 @@
 		1C9578FC238ED0B0006A7437 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				1C9578FD238ED0BA006A7437 /* Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -344,7 +341,6 @@
 				1CCDB0B7238CF118009C9C32 /* AppDelegate.swift in Sources */,
 				1C9578F3238E50F7006A7437 /* APIClient.swift in Sources */,
 				1C9578F7238E5715006A7437 /* Endpoints.swift in Sources */,
-				1C9578FE238ED0BA006A7437 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
