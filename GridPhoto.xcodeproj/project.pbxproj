@@ -3,27 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C02CAA21C7FFE7548436614 /* Pods_GridPhoto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECCB6F36957EDB8A032D07E /* Pods_GridPhoto.framework */; };
+		1C9578E8238D7B0D006A7437 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9578E7238D7B0D006A7437 /* Constants.swift */; };
+		1C9578EC238D89C4006A7437 /* GridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9578EB238D89C4006A7437 /* GridViewModel.swift */; };
+		1C9578EE238E502C006A7437 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9578ED238E502C006A7437 /* Manager.swift */; };
+		1C9578F0238E50C4006A7437 /* UnsplashPhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9578EF238E50C4006A7437 /* UnsplashPhotoService.swift */; };
+		1C9578F3238E50F7006A7437 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9578F2238E50F7006A7437 /* APIClient.swift */; };
+		1C9578F5238E522A006A7437 /* UnsplashModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9578F4238E522A006A7437 /* UnsplashModels.swift */; };
+		1C9578F7238E5715006A7437 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9578F6238E5715006A7437 /* Endpoints.swift */; };
+		1C9578F9238E660A006A7437 /* GridCVCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9578F8238E660A006A7437 /* GridCVCellViewModel.swift */; };
+		1C9578FE238ED0BA006A7437 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9578FD238ED0BA006A7437 /* Extensions.swift */; };
 		1CCDB0B7238CF118009C9C32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCDB0B6238CF118009C9C32 /* AppDelegate.swift */; };
-		1CCDB0B9238CF118009C9C32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCDB0B8238CF118009C9C32 /* SceneDelegate.swift */; };
-		1CCDB0BB238CF118009C9C32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCDB0BA238CF118009C9C32 /* ViewController.swift */; };
-		1CCDB0BE238CF118009C9C32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CCDB0BC238CF118009C9C32 /* Main.storyboard */; };
+		1CCDB0BB238CF118009C9C32 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCDB0BA238CF118009C9C32 /* GridViewController.swift */; };
 		1CCDB0C0238CF11B009C9C32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CCDB0BF238CF11B009C9C32 /* Assets.xcassets */; };
 		1CCDB0C3238CF11B009C9C32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CCDB0C1238CF11B009C9C32 /* LaunchScreen.storyboard */; };
+		1CCDB0D3238CF3AC009C9C32 /* GridCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCDB0D1238CF3AC009C9C32 /* GridCVCell.swift */; };
+		1CCDB0D4238CF3AC009C9C32 /* GridCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CCDB0D2238CF3AC009C9C32 /* GridCVCell.xib */; };
+		1CCDB0D6238D2AD4009C9C32 /* GridCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCDB0D5238D2AD4009C9C32 /* GridCollectionViewDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17B70482C8C1BDD4D45FD119 /* Pods-GridPhoto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridPhoto.debug.xcconfig"; path = "Target Support Files/Pods-GridPhoto/Pods-GridPhoto.debug.xcconfig"; sourceTree = "<group>"; };
+		1C9578E7238D7B0D006A7437 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1C9578EB238D89C4006A7437 /* GridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewModel.swift; sourceTree = "<group>"; };
+		1C9578ED238E502C006A7437 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		1C9578EF238E50C4006A7437 /* UnsplashPhotoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashPhotoService.swift; sourceTree = "<group>"; };
+		1C9578F2238E50F7006A7437 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		1C9578F4238E522A006A7437 /* UnsplashModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashModels.swift; sourceTree = "<group>"; };
+		1C9578F6238E5715006A7437 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		1C9578F8238E660A006A7437 /* GridCVCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCVCellViewModel.swift; sourceTree = "<group>"; };
+		1C9578FD238ED0BA006A7437 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		1CCDB0B3238CF118009C9C32 /* GridPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CCDB0B6238CF118009C9C32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1CCDB0B8238CF118009C9C32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1CCDB0BA238CF118009C9C32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1CCDB0BD238CF118009C9C32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CCDB0BA238CF118009C9C32 /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
 		1CCDB0BF238CF11B009C9C32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CCDB0C2238CF11B009C9C32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CCDB0C4238CF11B009C9C32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CCDB0D1238CF3AC009C9C32 /* GridCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCVCell.swift; sourceTree = "<group>"; };
+		1CCDB0D2238CF3AC009C9C32 /* GridCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GridCVCell.xib; sourceTree = "<group>"; };
+		1CCDB0D5238D2AD4009C9C32 /* GridCollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		6ECCB6F36957EDB8A032D07E /* Pods_GridPhoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GridPhoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95C28A9184900F3B45FF6007 /* Pods-GridPhoto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridPhoto.release.xcconfig"; path = "Target Support Files/Pods-GridPhoto/Pods-GridPhoto.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C02CAA21C7FFE7548436614 /* Pods_GridPhoto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C9578E9238D895C006A7437 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1CCDB0D1238CF3AC009C9C32 /* GridCVCell.swift */,
+				1CCDB0D2238CF3AC009C9C32 /* GridCVCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1C9578EA238D8973006A7437 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1CCDB0BA238CF118009C9C32 /* GridViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1C9578F1238E50E9006A7437 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				1C9578F2238E50F7006A7437 /* APIClient.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		1C9578FC238ED0B0006A7437 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1C9578FD238ED0BA006A7437 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		1CCDB0AA238CF118009C9C32 = {
 			isa = PBXGroup;
 			children = (
 				1CCDB0B5238CF118009C9C32 /* GridPhoto */,
 				1CCDB0B4238CF118009C9C32 /* Products */,
+				BFE64221CA096ED8A31D57F9 /* Pods */,
+				FB93BCA403EB4DB4183CCE77 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +116,105 @@
 		1CCDB0B5238CF118009C9C32 /* GridPhoto */ = {
 			isa = PBXGroup;
 			children = (
-				1CCDB0B6238CF118009C9C32 /* AppDelegate.swift */,
-				1CCDB0B8238CF118009C9C32 /* SceneDelegate.swift */,
-				1CCDB0BA238CF118009C9C32 /* ViewController.swift */,
-				1CCDB0BC238CF118009C9C32 /* Main.storyboard */,
+				1C9578F1238E50E9006A7437 /* Client */,
+				1CCDB0CC238CF19F009C9C32 /* Model */,
+				1CCDB0CD238CF1AB009C9C32 /* View */,
+				1CCDB0CE238CF1B0009C9C32 /* ViewModel */,
+				1CCDB0D0238CF204009C9C32 /* Manager */,
+				1CCDB0CF238CF1FD009C9C32 /* Service */,
+				1CCDB0CB238CF18D009C9C32 /* App Delegate */,
+				1C9578FC238ED0B0006A7437 /* Extensions */,
+				1CCDB0CA238CF186009C9C32 /* Supporting Files */,
+			);
+			path = GridPhoto;
+			sourceTree = "<group>";
+		};
+		1CCDB0CA238CF186009C9C32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				1CCDB0BF238CF11B009C9C32 /* Assets.xcassets */,
 				1CCDB0C1238CF11B009C9C32 /* LaunchScreen.storyboard */,
 				1CCDB0C4238CF11B009C9C32 /* Info.plist */,
+				1C9578E7238D7B0D006A7437 /* Constants.swift */,
 			);
-			path = GridPhoto;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CCDB0CB238CF18D009C9C32 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1CCDB0B6238CF118009C9C32 /* AppDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		1CCDB0CC238CF19F009C9C32 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1C9578F4238E522A006A7437 /* UnsplashModels.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1CCDB0CD238CF1AB009C9C32 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1C9578EA238D8973006A7437 /* Controllers */,
+				1C9578E9238D895C006A7437 /* Cells */,
+				1CCDB0D7238D2C36009C9C32 /* Data Sources */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1CCDB0CE238CF1B0009C9C32 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1C9578EB238D89C4006A7437 /* GridViewModel.swift */,
+				1C9578F8238E660A006A7437 /* GridCVCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1CCDB0CF238CF1FD009C9C32 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1C9578EF238E50C4006A7437 /* UnsplashPhotoService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1CCDB0D0238CF204009C9C32 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				1C9578ED238E502C006A7437 /* Manager.swift */,
+				1C9578F6238E5715006A7437 /* Endpoints.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		1CCDB0D7238D2C36009C9C32 /* Data Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1CCDB0D5238D2AD4009C9C32 /* GridCollectionViewDataSource.swift */,
+			);
+			path = "Data Sources";
+			sourceTree = "<group>";
+		};
+		BFE64221CA096ED8A31D57F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17B70482C8C1BDD4D45FD119 /* Pods-GridPhoto.debug.xcconfig */,
+				95C28A9184900F3B45FF6007 /* Pods-GridPhoto.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB93BCA403EB4DB4183CCE77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ECCB6F36957EDB8A032D07E /* Pods_GridPhoto.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CCDB0C7238CF11B009C9C32 /* Build configuration list for PBXNativeTarget "GridPhoto" */;
 			buildPhases = (
+				D033E777B72889710CACE5F5 /* [CP] Check Pods Manifest.lock */,
 				1CCDB0AF238CF118009C9C32 /* Sources */,
 				1CCDB0B0238CF118009C9C32 /* Frameworks */,
 				1CCDB0B1238CF118009C9C32 /* Resources */,
+				4AF17CB69F7DA8A8927C1BE3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +277,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CCDB0D4238CF3AC009C9C32 /* GridCVCell.xib in Resources */,
 				1CCDB0C3238CF11B009C9C32 /* LaunchScreen.storyboard in Resources */,
 				1CCDB0C0238CF11B009C9C32 /* Assets.xcassets in Resources */,
-				1CCDB0BE238CF118009C9C32 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AF17CB69F7DA8A8927C1BE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GridPhoto/Pods-GridPhoto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GridPhoto/Pods-GridPhoto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GridPhoto/Pods-GridPhoto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D033E777B72889710CACE5F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GridPhoto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1CCDB0AF238CF118009C9C32 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CCDB0BB238CF118009C9C32 /* ViewController.swift in Sources */,
+				1C9578F0238E50C4006A7437 /* UnsplashPhotoService.swift in Sources */,
+				1C9578EC238D89C4006A7437 /* GridViewModel.swift in Sources */,
+				1C9578E8238D7B0D006A7437 /* Constants.swift in Sources */,
+				1C9578F9238E660A006A7437 /* GridCVCellViewModel.swift in Sources */,
+				1CCDB0D3238CF3AC009C9C32 /* GridCVCell.swift in Sources */,
+				1CCDB0D6238D2AD4009C9C32 /* GridCollectionViewDataSource.swift in Sources */,
+				1C9578EE238E502C006A7437 /* Manager.swift in Sources */,
+				1C9578F5238E522A006A7437 /* UnsplashModels.swift in Sources */,
+				1CCDB0BB238CF118009C9C32 /* GridViewController.swift in Sources */,
 				1CCDB0B7238CF118009C9C32 /* AppDelegate.swift in Sources */,
-				1CCDB0B9238CF118009C9C32 /* SceneDelegate.swift in Sources */,
+				1C9578F3238E50F7006A7437 /* APIClient.swift in Sources */,
+				1C9578F7238E5715006A7437 /* Endpoints.swift in Sources */,
+				1C9578FE238ED0BA006A7437 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1CCDB0BC238CF118009C9C32 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1CCDB0BD238CF118009C9C32 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1CCDB0C1238CF11B009C9C32 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,11 +478,13 @@
 		};
 		1CCDB0C8238CF11B009C9C32 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17B70482C8C1BDD4D45FD119 /* Pods-GridPhoto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MJWVGRX9VD;
-				INFOPLIST_FILE = GridPhoto/Info.plist;
+				INFOPLIST_FILE = "GridPhoto/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +498,13 @@
 		};
 		1CCDB0C9238CF11B009C9C32 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C28A9184900F3B45FF6007 /* Pods-GridPhoto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MJWVGRX9VD;
-				INFOPLIST_FILE = GridPhoto/Info.plist;
+				INFOPLIST_FILE = "GridPhoto/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
